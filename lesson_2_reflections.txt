@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Initializing the repository sets up the space for the commits to be saved and organized.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a 'pre-loading dock' for the various files to be included in any given repository. It allows you to add all neccessary files before having to create a single commit.
