@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the
+bug that was introduced?
+
+By pinpointing only the areas that were different from a working version
+to one with a bug, we narrowed down the field of search considerably,
+saving both time and effort.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You could go backwards and forwards to review every step in your process of code evolution. Finding errors and spotting error patterns would also be much easier.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like in Google Docs?
+
+Pros:
+-Better more logical control over when saves are made.
+-Easier comparison between earlier and later saves.
+-Control over the amount of saves.
+
+Cons:
+-Must remember to save.
+-Slows down programming 'flow' while working.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file seperately?
+
+It might have something to do with what each is meant to do. Google Docs is a writing application in the same vein as Microsoft Word. Git is meant for dealing with code that is meaningfully interconnected, sometimes across many different document and document types.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log enables you to take a look at the entire history of a file. git diff allows you to compare earlier and later files for differences.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+With the assurance that you could simply load a previous version of the file and locate the mistake, you could experiment with much less fear of creating a bug that becomes a needle in a haystack and wastes hours of time.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Learning how to develop mobile apps and games... and just games in general comes to mind.
+
+
