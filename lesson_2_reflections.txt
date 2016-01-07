@@ -6,3 +6,30 @@ Initializing the repository sets up the space for the commits to be saved and or
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is a 'pre-loading dock' for the various files to be included in any given repository. It allows you to add all neccessary files before having to create a single commit.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+After adding things to the staging area, you can check the staging area itself using
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+By having branches you are more free to experiment and make various versions of your file without having to constantly worry about jumping between commits along the same line.
+
+
+How do the diagrams help you visualize the branch structure?
+
+By giving symbolic visual representation to process of making commits and branches.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Because it is a procedure in which two versions of code are combined into one with, hopefully, the relevant changes to each and their effect on the program being preserved.
+
+
+What are the pros and cons of Git's automatically merging vs. always doing merges manually?
+
+Having Git automatically merge means saving time and removing certain types of human error from the equation. Any differences that Git finds to be relevant will be pointed out for correction by a human. On the other hand, Git doesn't always know what it should and shouldn't keep even when it is very cautious, and this could lead to trouble with the final code. 
+
+Manually merging is a huge time drain. It slows code projects down to a crawl. On the other hand, it usually means that one or more humans must look over the code extra carefully, taking even more pains to communicate. However, this is not neccessarily advantageous, especially in the face of time lost.
