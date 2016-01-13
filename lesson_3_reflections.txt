@@ -11,3 +11,8 @@ You might want to wait until you reached a complete version update. In other wor
 Describe the difference between forks, clones, and branches. When would you use one instead of another?
 
 You clone repositories when you want to make another repository on the same machine. Forks are a type of clone for when you want to take a repository from github in order to make changes to a repository and share those changes without actually changing the original. Branches are for taking a different evolutionary route of code, keeping the main code (master) seperate until an entire feature is complete.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You can compare the remote to the local repository to get a sense of whether anything has changed and in what sense.
